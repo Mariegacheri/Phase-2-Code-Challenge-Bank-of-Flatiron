@@ -23,7 +23,7 @@ const App = () => {
 
   return (
     <div id='parentdiv'>
-      <div id='Siteheader'><h1>Flat ironBank</h1></div>
+      <div id='Siteheader'><h1>FLAT-IRON BANK</h1></div>
       <TransactionForm onAddTransaction={handleAddTransaction} />
       <SearchBar searchTerm={searchTerm} onSearchChange={setSearchTerm} />
       <TransactionTable transactions={filteredTransactions} />

@@ -1,11 +1,11 @@
 .root{
-  height: 100vh;
+  height: 200vh;
 }
 #Siteheader{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(0, 119, 255);
+  background-color: rgb(25, 252, 63);
 
 }
 
@@ -14,7 +14,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #6C7C59;
+  background-color: #eff1eb;
 }
 #tablerow{
   border: 2px solid black;
@@ -53,7 +53,7 @@ body{
 #transactionButton{
   height: 32px;
   color: white;
-  background-color: #008000da;
+  background-color: #005180da;
   font-weight: 700;
   border-radius: 5px;
 }
@@ -61,7 +61,7 @@ body{
   background-color: #014421;
 }
 #transactionButton:active{
-  background-color: #228B22;
+  background-color: #1d20c5;
   color: black;
 }
 #parentdiv{
@@ -69,5 +69,5 @@ body{
   padding: 3px;
   margin: 20px;
   border: 1px solid black;
-  background-color: beige;
+  background-color: rgb(250, 250, 243);
 }
