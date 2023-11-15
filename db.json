@@ -1,5 +1,6 @@
-const transactions = [
-    {
+{
+  "transactions":[
+   {
       "id": 1,
       "date": "2019-12-01",
       "description": "Paycheck from Bob's Burgers",
@@ -97,6 +98,5 @@ const transactions = [
       "category": "Food",
       "amount": 3000
     }
-  ];
-  
-  export default transactions;
+  ]
+}
